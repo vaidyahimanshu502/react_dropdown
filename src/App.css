@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  padding: 10px 100px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-list {
+  /* border: 1px solid black; */
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+}
+
+.dropdown-list li {
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.dropdown-list li:hover {
+  background-color: #f0f0f0;
+}
